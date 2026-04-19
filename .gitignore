@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model weights and memory
+*.pt
+*.pth
+*.pkl
+*.bin
+checkpoint/
+checkpoints/
+memory/
+
+# Build artifacts (Single-file distributions)
+causal_jepa.py
+kaggle_all_in_one.py
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logging
+*.log
